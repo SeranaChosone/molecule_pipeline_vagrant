@@ -1,0 +1,16 @@
+---
+- src: robertdebock.molecule
+- src: robertdebock.bootstrap
+- src: robertdebock.buildtools
+- src: robertdebock.epel
+- src: robertdebock.python_pip
+- src: geerlingguy.firewall
+- src: geerlingguy.ntp
+- src: geerlingguy.git
+- src: geerlingguy.java
+- src: geerlingguy.jenkins
+- src: geerlingguy.gitlab
+
+- src: https://github.com/SeranaChosone/ansible_role_configure_agent
+  version: master
+  name: ansible_role_configure_agent

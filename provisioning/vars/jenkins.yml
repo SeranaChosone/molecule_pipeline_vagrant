@@ -1,0 +1,12 @@
+---
+firewall_allowed_tcp_ports:
+  - "22"
+  - "25"
+  - "80"
+  - "443"
+  - "8080"
+  - "41879"
+
+git_packages: git
+
+jenkins_plugins: ['GitLab', 'Git', 'Gitlab Merge Request Builder', 'Pipeline', 'Ansible']

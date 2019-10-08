@@ -1,0 +1,11 @@
+---
+firewall_allowed_tcp_ports:
+  - "22"
+  - "25"
+  - "80"
+  - "443"
+  - "8080"
+  - "41879"
+
+agent_function: molecule
+master_url: 'http://192.168.33.100:8080'

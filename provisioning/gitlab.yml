@@ -1,0 +1,10 @@
+---
+- hosts: gitlab
+  gather_facts: yes
+
+  vars_files:
+    - vars/gitlab.yml
+
+  roles:
+    - geerlingguy.firewall
+    - geerlingguy.gitlab

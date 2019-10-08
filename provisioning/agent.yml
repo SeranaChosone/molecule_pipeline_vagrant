@@ -1,0 +1,13 @@
+---
+- hosts: agent
+  gather_facts: yes
+
+  vars_files:
+    - vars/agent.yml
+
+  roles:
+    - geerlingguy.firewall
+    - geerlingguy.ntp
+    - geerlingguy.git
+    - geerlingguy.java
+    - ansible_role_configure_agent
